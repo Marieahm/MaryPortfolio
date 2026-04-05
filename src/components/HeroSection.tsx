@@ -30,10 +30,10 @@ const GlowingParticles: React.FC = () => {
         <bufferAttribute attach="attributes-position" args={[positions, 3]} />
       </bufferGeometry>
       <pointsMaterial
-        color="#c084fc"
+        color="#b50ffc"
         size={0.08}
         transparent
-        opacity={0.6}
+        opacity={0.5}
         blending={2}
       />
     </points>
