@@ -1,10 +1,9 @@
 import React, { useRef, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Stars, PointLight, Sparkles } from '@react-three/drei';
+import { Stars, Sparkles } from '@react-three/drei';
 import { personalInfo, socialLinks } from '../data/portfolioData';
 import * as Icons from 'react-icons/fa';
 
-// مكون الجزيئات المتوهجة الصغيرة
 const GlowingParticles: React.FC = () => {
   const pointsRef = useRef<any>(null);
   const particlesCount = 800;
@@ -28,12 +27,7 @@ const GlowingParticles: React.FC = () => {
   return (
     <points ref={pointsRef}>
       <bufferGeometry>
-        <bufferAttribute
-          attach="attributes-position"
-          count={particlesCount}
-          array={positions}
-          itemSize={3}
-        />
+        <bufferAttribute attach="attributes-position" args={[positions, 3]} />
       </bufferGeometry>
       <pointsMaterial
         color="#c084fc"

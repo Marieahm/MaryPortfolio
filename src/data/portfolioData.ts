@@ -1,5 +1,4 @@
 import { Skill, Experience, Education, Language, Service, PortfolioItem } from '../types';
-
 export const personalInfo = {
   name: 'Mary Ahmad',
   title: 'Software Engineer | System Analyst | UI/UX Designer',

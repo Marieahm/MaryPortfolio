@@ -1,12 +1,11 @@
-// File: src/App.tsx
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
 import Services from './components/Services';
-import ProjectShowcase from './components/ProjectShowcase'; 
+import ProjectShowcase from './components/ProjectShowcase';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 
@@ -42,8 +41,8 @@ function App() {
       <Resume />
       <Skills />
       <Services />
-      <ProjectShowcase />  
-      <Gallery />          
+      <ProjectShowcase />
+      <Gallery />
       <Footer />
     </div>
   );
