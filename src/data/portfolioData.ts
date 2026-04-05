@@ -23,12 +23,11 @@ export const socialLinks = [
 // تم تحديث المهارات (دمج المهارات التقنية والناعمة من السيرة)
 export const skills: Skill[] = [
   // Technical Skills
-  { name: 'Unified Modelling Language', percentage: 85, category: 'technical' },
+  { name: 'Unified Modelling Language', percentage: 98, category: 'technical' },
   { name: 'SQL & Database Design', percentage: 90, category: 'technical' },
   { name: 'ERP Systems (Odoo)', percentage: 88, category: 'technical' },
   { name: 'System Analysis & Prototyping', percentage: 92, category: 'technical' },
   { name: 'DevOps & Debugging', percentage: 80, category: 'technical' },
-  { name: 'HTML5 & CSS', percentage: 95, category: 'technical' },
   { name: 'JavaScript / TypeScript', percentage: 85, category: 'technical' },
   { name: 'PHP', percentage: 80, category: 'technical' },
   { name: 'Git & Version Control', percentage: 90, category: 'technical' },
@@ -89,17 +88,17 @@ export const services: Service[] = [
 ];
 
 // (لم يتم تغيير بيانات المشاريع والصور)
-const IMAGE_BASE = 'https://raw.githubusercontent.com/Marieahm/MaryPortfolio/src/assets/imgs/';
+const IMAGE_BASE = 'src/assets/imgs/';
 
 export const portfolioItems: PortfolioItem[] = [
   { id: 1, title: 'Web Project 1', category: 'web', imageUrl: `${IMAGE_BASE}web-1.jpg`, description: 'Perfect Work Best User Experience!' },
-  { id: 2, title: 'Mobile App 2', category: 'moplie', imageUrl: `${IMAGE_BASE}mopile-2.jpg`, description: 'Perfect Work Best User Experience!' },
+  { id: 2, title: 'Mobile App 2', category: 'moblie', imageUrl: `${IMAGE_BASE}mopile-2.jpg`, description: 'Perfect Work Best User Experience!' },
   { id: 3, title: 'Web Project 2', category: 'web', imageUrl: `${IMAGE_BASE}web-2.jpg`, description: 'Perfect Work Best User Experience!' },
-  { id: 4, title: 'Mobile App 1', category: 'moplie', imageUrl: `${IMAGE_BASE}mopile-1.jpg`, description: 'Perfect Work Best User Experience!' },
+  { id: 4, title: 'Mobile App 1', category: 'moblie', imageUrl: `${IMAGE_BASE}mopile-1.jpg`, description: 'Perfect Work Best User Experience!' },
   { id: 5, title: 'Advertising 3', category: 'advertising', imageUrl: `${IMAGE_BASE}adver-3.jpg`, description: 'Perfect Work Best User Experience!' },
-  { id: 6, title: 'Mobile App 3', category: 'moplie', imageUrl: `${IMAGE_BASE}mopile-3.jpg`, description: 'Perfect Work Best User Experience!' },
+  { id: 6, title: 'Mobile App 3', category: 'moblie', imageUrl: `${IMAGE_BASE}mopile-3.jpg`, description: 'Perfect Work Best User Experience!' },
   { id: 7, title: 'Advertising 5', category: 'advertising', imageUrl: `${IMAGE_BASE}adver-5.jpg`, description: 'Perfect Work Best User Experience!' },
-  { id: 8, title: 'Mobile App 4', category: 'moplie', imageUrl: `${IMAGE_BASE}mopile-4.jpg`, description: 'Perfect Work Best User Experience!' },
+  { id: 8, title: 'Mobile App 4', category: 'moblie', imageUrl: `${IMAGE_BASE}mopile-4.jpg`, description: 'Perfect Work Best User Experience!' },
   { id: 9, title: 'Promotion 1', category: 'branding', imageUrl: `${IMAGE_BASE}branding-1.jpg`, description: 'Perfect Work Best User Experience!' },
   { id: 10, title: 'Promotion 3', category: 'branding', imageUrl: `${IMAGE_BASE}branding-3.jpg`, description: 'Perfect Work Best User Experience!' },
   { id: 11, title: 'Promotion 4', category: 'branding', imageUrl: `${IMAGE_BASE}branding-4.jpg`, description: 'Perfect Work Best User Experience!' },
