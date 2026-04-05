@@ -76,7 +76,7 @@ const HeroSection: React.FC = () => {
             scale={[10, 10, 10]}
             size={0.3}
             speed={0.4}
-            color="#c084fc"
+            color="#e884fc"
             opacity={0.4}
           />
         </Canvas>
