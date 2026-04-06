@@ -88,7 +88,7 @@ export const services: Service[] = [
 ];
 
 // (لم يتم تغيير بيانات المشاريع والصور)
-const IMAGE_BASE = 'src/assets/imgs/';
+const IMAGE_BASE = './src/assets/imgs/';
 
 export const portfolioItems: PortfolioItem[] = [
   { id: 1, title: 'Web Project 1', category: 'web', imageUrl: `${IMAGE_BASE}web-1.jpg`, description: 'Perfect Work Best User Experience!' },
