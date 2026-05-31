@@ -1,11 +1,11 @@
 import { Skill, Experience, Education, Language, Service, PortfolioItem } from '../types';
 export const personalInfo = {
   name: 'Mary Ahmad',
-  title: 'Software Engineer | System Analyst | UI/UX Designer',
+  title: 'Software Engineer | System Analyst | Odoo ERP Project Leader ',
   birthdate: '26/06/2000',
   email: 'mary.ahmad.12m626@gmail.com',
   address: 'Tartus, Syria',
-  about: 'Analytical thinker and researcher with hands-on experience in systems design, databases, and software development. I lead multidisciplinary teams to deliver projects 20% faster while ensuring user satisfaction. Self-learner passionate about exploring new technologies and building impactful software.',
+  about: 'Software Engineer specializing in Information Systems, System Analysis, ERP implementation, and digital transformation. Experienced in leading Odoo projects, business process analysis, solution design, database architecture, and client requirements gathering. Passionate about research, continuous learning, and building scalable software solutions that create measurable business value.',
   cvUrl: 'https://drive.google.com/file/d/1kYHTTx5pqU27YOcMo4lOrhbIgRWuWYWf/view?usp=sharing',
   hireUrl: 'https://mostaql.com/u/mary_ahmad',
   github: 'https://github.com/Marieahm',
@@ -20,43 +20,66 @@ export const socialLinks = [
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mary-ahmad-a113583b6', icon: 'FaLinkedin' },
 ];
 
-// تم تحديث المهارات (دمج المهارات التقنية والناعمة من السيرة)
 export const skills: Skill[] = [
   // Technical Skills
-  { name: 'Unified Modelling Language', percentage: 98, category: 'technical' },
+  { name: 'System Analysis & Requirements Engineering', percentage: 95, category: 'technical' },
+  { name: 'Business Process Modelling (BPMN)', percentage: 92, category: 'technical' },
+  { name: 'UML Modelling & Documentation', percentage: 95, category: 'technical' },
+  { name: 'ERP Systems (Odoo)', percentage: 93, category: 'technical' },
   { name: 'SQL & Database Design', percentage: 90, category: 'technical' },
-  { name: 'ERP Systems (Odoo)', percentage: 88, category: 'technical' },
-  { name: 'System Analysis & Prototyping', percentage: 92, category: 'technical' },
-  { name: 'DevOps & Debugging', percentage: 80, category: 'technical' },
-  { name: 'JavaScript / TypeScript', percentage: 85, category: 'technical' },
-  { name: 'PHP', percentage: 80, category: 'technical' },
+  { name: 'Software Testing & Quality Assurance', percentage: 88, category: 'technical' },
+  { name: 'UI/UX Design & Prototyping', percentage: 85, category: 'technical' },
+  { name: 'JavaScript / TypeScript', percentage: 82, category: 'technical' },
+  { name: 'PHP & Web Development', percentage: 80, category: 'technical' },
   { name: 'Git & Version Control', percentage: 90, category: 'technical' },
-  { name: 'Bootstrap & Tailwind', percentage: 92, category: 'technical' },
+
   // Soft Skills
-  { name: 'Team Leadership', percentage: 90, category: 'soft' },
-  { name: 'Creative Writing', percentage: 95, category: 'soft' },
-  { name: 'Fast Typing', percentage: 85, category: 'soft' },
-  { name: 'Sketching & Visual Design', percentage: 80, category: 'soft' },
-  { name: 'Microsoft Office', percentage: 90, category: 'soft' },
-  { name: 'Problem Solving', percentage: 88, category: 'soft' },
-  { name: 'Research & Self-Learning', percentage: 95, category: 'soft' },
+  { name: 'Leadership & Team Coordination', percentage: 92, category: 'soft' },
+  { name: 'Communication & Presentation', percentage: 90, category: 'soft' },
+  { name: 'Problem Solving', percentage: 95, category: 'soft' },
+  { name: 'Research & Self-Learning', percentage: 98, category: 'soft' },
+  { name: 'Analytical Thinking', percentage: 95, category: 'soft' },
+  { name: 'Technical Documentation', percentage: 92, category: 'soft' },
+  { name: 'Time Management', percentage: 88, category: 'soft' },
+  { name: 'Microsoft Office Suite', percentage: 90, category: 'soft' },
 ];
 
-// تم تحديث الخبرات المهنية
 export const experiences: Experience[] = [
-  { title: 'Web Developer, UI/UX Designer', period: '2019 - Present', company: 'Freelance (Remote)' },
-  { title: 'IT System Analyst', period: '2022 - Present', company: 'Freelance (Hybrid)' },
-  { title: 'System Analyst & Odoo Project Leader', period: 'Oct 2024 - Mar 2026', company: 'Arados Software, Syria' },
-  { title: 'IT Trainer', period: 'Dec 2025 - Present', company: 'Syrians Positive Absolute, Syria' },
+  {
+    title: 'System Analyst & Odoo Project Leader',
+    period: 'Oct 2024 - Mar 2026',
+    company: 'Arados Software'
+  },
+  {
+    title: 'Software Engineer & ERP Consultant',
+    period: '2024 - Present',
+    company: 'Freelance'
+  },
+  {
+    title: 'Web Developer & UI/UX Designer',
+    period: '2019 - Present',
+    company: 'Freelance'
+  },
+  {
+    title: 'IT Trainer',
+    period: 'Dec 2025 - Present',
+    company: 'Syrians Positive Absolute'
+  }
 ];
 
-// تم تحديث التعليم
 export const education: Education[] = [
-  { degree: 'Informatics Engineering (Software & Information Systems)', period: '2018 - 2024', grade: 'EQF Level 6' },
-  { degree: 'High School Diploma', period: '2017 - 2018', grade: '95.5%' },
+  {
+    degree: 'B.Sc. Informatics Engineering (Software & Information Systems)',
+    period: '2018 - 2024',
+    grade: 'EQF Level 6'
+  },
+  {
+    degree: 'Scientific High School Diploma',
+    period: '2017 - 2018',
+    grade: '95.5%'
+  }
 ];
 
-// تم تحديث اللغات مع نسب تقريبية من المستويات المذكورة
 export const languages: Language[] = [
   { name: 'Arabic', level: 'Native', percentage: 100 },
   { name: 'English', level: 'Proficient (C1/C2)', percentage: 90 },
@@ -66,28 +89,27 @@ export const languages: Language[] = [
 
 export const services: Service[] = [
   {
-    title: 'System Analysis',
-    description: 'Analyzing and evaluating software systems to identify strengths, weaknesses, and areas for improvement. Assessing functionality, performance, and security, providing recommendations for optimization.',
+    title: 'System Analysis & Digital Transformation',
+    description: 'Analyzing business processes, gathering requirements, designing workflows, and delivering digital transformation solutions aligned with organizational goals.',
     icon: 'FaChartLine',
   },
   {
-    title: 'Data Structure Management',
-    description: 'Organizing and managing data efficiently. Designing data storage systems, developing strategies for retrieval, manipulation, and optimization to ensure integrity, security, and accessibility.',
+    title: 'ERP Consulting & Odoo Implementation',
+    description: 'ERP implementation, business process mapping, module configuration, gap analysis, testing, training, and deployment using Odoo ERP.',
+    icon: 'FaProjectDiagram',
+  },
+  {
+    title: 'Database Design & Data Management',
+    description: 'Designing scalable database structures, optimizing data organization, ensuring integrity, security, and efficient information retrieval.',
     icon: 'FaDatabase',
   },
   {
-    title: 'Web Development',
-    description: 'Building and maintaining websites with modern technologies. Designing and coding web pages, ensuring compatibility across browsers and devices using HTML, CSS, JavaScript, and frameworks.',
+    title: 'Web Applications & Business Solutions',
+    description: 'Developing modern web applications, portals, dashboards, and business systems tailored to organizational requirements.',
     icon: 'FaCode',
-  },
-  {
-    title: 'ERP Projects Leader',
-    description: 'Overseeing ERP implementation projects: requirements gathering, system configuration, testing, and training. Aligning ERP systems with organizational goals and business processes.',
-    icon: 'FaProjectDiagram',
   },
 ];
 
-// (لم يتم تغيير بيانات المشاريع والصور)
 const IMAGE_BASE = '/MaryPortfolio/imgs/';
 
 export const portfolioItems: PortfolioItem[] = [
@@ -109,10 +131,10 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const stats = [
-  { icon: 'FaClock', value: '6 day a week', label: 'Work Time' },
-  { icon: 'FaLayerGroup', value: '50+', label: 'Projects Completed' },
-  { icon: 'FaSmile', value: 'All became', label: 'Happy Clients' },
-  { icon: 'FaHeartBroken', value: '10k', label: 'Coffee Drinked' },
+  { icon: 'FaLayerGroup', value: '50+', label: 'Projects Contributed' },
+  { icon: 'FaProjectDiagram', value: '10+', label: 'ERP Projects' },
+  { icon: 'FaUsers', value: '20+', label: 'Clients & Stakeholders' },
+  { icon: 'FaBook', value: '6+', label: 'Years of Learning & Development' },
 ];
 export interface Project {
   id: number;

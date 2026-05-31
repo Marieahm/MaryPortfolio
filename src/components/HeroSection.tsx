@@ -90,7 +90,6 @@ const HeroSection: React.FC = () => {
           Hello, I am <span className="bg-gradient-to-r from-lavender-600 to-blue-500 bg-clip-text text-transparent">{personalInfo.name}</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-6">{personalInfo.title}</p>
-        <p className="text-gray-500 max-w-2xl mx-auto mb-8">{personalInfo.about}</p>
 
         <div className="flex justify-center space-x-4 mb-8">
           {socialLinks.map((link) => (

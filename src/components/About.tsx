@@ -36,19 +36,7 @@ const About: React.FC = () => {
               <li><span className="font-semibold">Email:</span> {personalInfo.email}</li>
               <li><span className="font-semibold">Address:</span> {personalInfo.address}</li>
             </ul>
-            <div className="flex space-x-4">
-              {socialLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-lavender-100 text-lavender-600 flex items-center justify-center hover:bg-lavender-600 hover:text-white transition-colors"
-                >
-                  {renderIcon(link.icon)}
-                </a>
-              ))}
-            </div>
+           
           </div>
         </div>
       </div>
