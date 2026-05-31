@@ -1,13 +1,9 @@
 // File: src/components/About.tsx
 import React from 'react';
-import { personalInfo, socialLinks } from '../data/portfolioData';
-import * as Icons from 'react-icons/fa';
+import { personalInfo} from '../data/portfolioData';
 
 const About: React.FC = () => {
-  const renderIcon = (iconName: string) => {
-    const IconComponent = (Icons as any)[iconName];
-    return IconComponent ? <IconComponent className="w-5 h-5" /> : null;
-  };
+ 
 
   return (
     <section id="about" className="py-20 bg-white">
